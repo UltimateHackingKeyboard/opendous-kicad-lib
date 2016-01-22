@@ -1,19 +1,19 @@
-## Adding KiCAD Libraries To a Specific Project:
+## Adding KiCad Libraries To a Specific Project:
 
-A visual tutorial for adding KiCAD Libraries to a project is available at:
+A visual tutorial for adding KiCad Libraries to a project is available at:
 
 http://code.google.com/p/opendous/wiki/KiCADTutorialAddingLibraries
 
-## Adding KiCAD Libraries Permanently:
+## Adding KiCad Libraries Permanently:
 
-To use Opendous Inc.'s KiCAD footprints, you must copy `opendous.dcm` and
+To use Opendous Inc.'s KiCad footprints, you must copy `opendous.dcm` and
 `opendous.lib` to your `\KiCad\share\library` directory and copy `opendous.mod` and
 `opendous.mdc` to your `\KiCad\share\modules` directory.  For older version of
-KiCAD, these directories are `\KiCad\library` and `\KiCad\modules`, respectively.
+KiCad, these directories are `\KiCad\library` and `\KiCad\modules`, respectively.
 
 You must then edit your `\KiCad\share\template\kicad.pro` file to inform
-KiCAD that new library and module files are available.  In older versions of
-KiCAD, this file is in `\KiCad\template\kicad.pro`.
+KiCad that new library and module files are available.  In older versions of
+KiCad, this file is in `\KiCad\template\kicad.pro`.
 
 Open the file in a text editor that does not add formatting, such as
 Windows' Notepad, and look for `[pcbnew/libraries]`.  Add a line for
@@ -40,7 +40,7 @@ LibName3=transistors
 LibName29=opendous
 ```
 
-Now when you run KiCAD, Opendous Inc.'s footprints will be available.
+Now when you run KiCad, Opendous Inc.'s footprints will be available.
 
 `opendous.dcm`, `opendous.lib`, `opendous.mod`, and `opendous.mdc`
 are hereby deeded by Opendous Inc. into the Public Domain
