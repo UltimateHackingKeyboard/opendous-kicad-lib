@@ -1,3 +1,11 @@
+# Opendous KiCad library
+
+This repo has the exact content of `KiCad_Libraries-2012-10-18.zip` which can be found at https://code.google.com/archive/p/opendous/downloads
+
+It has been cloned here as a separate Git repo so that it can be included into other repos as a Git submodule.
+
+Following is the original content of the readme file.
+
 ## Adding KiCad Libraries To a Specific Project:
 
 A visual tutorial for adding KiCad Libraries to a project is available at:
